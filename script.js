@@ -1,3 +1,4 @@
+alert("JS działa");
 const gifStages = [
     "https://media.tenor.com/EBV7OT7ACfwAAAAj/u-u-qua-qua-u-quaa.gif",    // 0 normal
     "https://media1.tenor.com/m/uDugCXK4vI4AAAAd/chiikawa-hachiware.gif",  // 1 confused
@@ -141,4 +142,5 @@ function runAway() {
     noBtn.style.position = 'fixed'
     noBtn.style.left = `${randomX}px`
     noBtn.style.top = `${randomY}px`
+
     noBtn.style.zIndex = '50'
